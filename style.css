@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabela {
+  background-color: #1e4b16f8;
+}
+
+/* Titulo */
+h1 {
+    color: rgb(44, 139, 44);
+    font-size:larger;
+    text-align: center;
+}
+/* Subtitulo */
+h2 {
+    color: rgb(25, 69, 25);
+    text-align: center;
+    display: inline-block;
+}
+
+th {
+    background-color:rgb(52, 216, 82);
+}
+
+ .th, td {
+    border-collapse: collapse;
+    padding: 8px 10px;
+    text-align: left;
+    border: 5px solid rgb(252, 252, 200);
+    justify-self: center;
+}
+
+.body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+td {
+    background-color:#97e689f8;
+    padding: 8px 10px;
+}
+
+img {
+    width: 20px;
+}
